@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Sorteador de Nomes</title>
+</head>
+<body>
+    <header>
+        <div class="conteudo">
+            <nav id="nav-header" class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="">Sobre</a>
+                <a href="">Criador</a>
+            </nav>
+            <a class="menu-barras" onclick="mostrarMenu()">
+                <i id="icone" class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header> 
+    
+    <main class="app">
+        <section class="sorteio">
+            <div class="container">
+                <h2>SORTEAR NOMES</h2>
+                <div class="linha"></div>
+                <div class="formulariocontainer">
+                    <label for="entradaNomes">Adicione os nomes para o sorteio!</label>
+                    <textarea id="entradaNomes" placeholder="Adicione os nomes separados por vírgula. ex(João, Vitor)"></textarea>
+                    <button class="sortear">Sortear</button>
+                </div>
+                <div class="resultado">
+                    <p>Resultado:</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

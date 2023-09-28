@@ -1,0 +1,88 @@
+/* Estilos gerais */
+body {
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d000ff;
+}
+
+.container {
+    font-size: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: #4d005f;
+}
+
+/* Estilos para as entradas do formulário */
+.entradas {
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.entrada {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+label {
+    font-size: 35px;
+    box-shadow: 0px 0px 80px 80px color( rgb(0, 0, 0)  );
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    padding: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    
+}
+
+/* Estilos para o botão */
+#sortear {
+    
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flexbox;
+    width: 100%;
+    padding: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+#sortear:hover {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 80px 80px color( rgb(0, 0, 0)  );
+}
+
+/* Estilos para o resultado */
+#resultado {
+    font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+}

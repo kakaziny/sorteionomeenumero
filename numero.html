@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="smartphone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4302f7b914.js" crossorigin="anonymous"></script>
+    <title>Sorteador de Números</title>
+    <link rel="shortcut icon" type="imagex/png" href="img/5256885.png ">
+</head>
+
+<body>
+
+    <header>
+        <div class="conteudo">
+            <nav id="nav-header" class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="">Sobre</a>
+                <a href="">Criador</a>
+            </nav>
+            <a class="menu-barras" onclick="mostrarMenu()">
+                <i id="icone" class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header> 
+
+    <div class="container">
+        <h2>SORTEIO DE NÚMEROS</h2>
+
+        <div class="entradas">
+            <div class="entrada">
+                <label for="min">mínimo:</label>
+                <input type="number" id="min" name="min">
+            </div>
+            <div class="entrada">
+                <label for="max">máximo:</label>
+                <input type="number" id="max" name="max">
+            </div>
+        </div>
+
+        <button id="sortear">Sortear</button>
+
+        <div id="resultado">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
